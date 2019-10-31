@@ -1,0 +1,35 @@
+<idea-plugin>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>58plugin</name>
+  <version>1.0</version>
+  <vendor email="wangchenghao@58.com" url="http://www.58.com">58同城</vendor>
+
+  <description>
+    砥砺奋进奥德赛科技发达三角阀短时间内发就是点击福利卡坚实的法律 打死了经发局的水立方结案率打算理发内拉手的
+  </description>
+
+  <change-notes>
+    asdlfjklsdfjadsfSDK奋达科技斯诺伐克静安寺DNF接口德生科技你发卡机丝黛芬妮
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="com.wuba.plugin" class="plugin" text="plugin" description="plugin">
+      <add-to-group group-id="GenerateGroup" anchor="last"/>
+    </action>
+  </actions>
+
+</idea-plugin>
